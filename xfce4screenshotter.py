@@ -6,7 +6,7 @@ function rename_file()
 }
 REMOTE=inyuki@mindey.com:/home/inyuki/webapps/cv/screens/
 DOMAIN=https://mindey.com/screens/
-LOCALPATH=/home/mindey/Media/Screenshots/
+LOCALPATH=/home/mindey/Pictures/Screenshots/
 xfce4-screenshooter -r --save=$LOCALPATH
 LOCALFILE=$(ls -tr $LOCALPATH | tail -n 1)
 rename_file $LOCALFILE
