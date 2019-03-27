@@ -4,9 +4,9 @@ function rename_file()
 {
     NEWFILE=$(echo $1 | md5sum | cut -c-25)'.png'
 }
-REMOTE=inyuki@mindey.com:/home/inyuki/webapps/cv/screens/
-DOMAIN=https://mindey.com/screens/
-LOCALPATH=/home/mindey/Pictures/Screenshots/
+REMOTE=mindey@wiki.mindey.com:/home/mindey/hosts/wiki/shared/shots/
+DOMAIN=https://wiki.mindey.com/shared/shots/
+LOCALPATH=/home/mindey/Pictures/screens/
 xfce4-screenshooter -r --save=$LOCALPATH
 LOCALFILE=$(ls -tr $LOCALPATH | tail -n 1)
 rename_file $LOCALFILE
