@@ -1,2 +1,3 @@
 metadrive
 speedtest-cli
+linkedin_driver
