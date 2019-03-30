@@ -1,5 +1,4 @@
 metadrive
 speedtest-cli
 linkedin_driver
-docopt==0.6.2
-metadir
+bpython
